@@ -411,8 +411,8 @@ done
 
 increase_followers() {
 
-printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] This technique consists of following/unfolling celebgrams\e[0m\n"
-printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] It can increase your followers up to about +30 in 1 hour \e[0m\n"
+printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] This technique consists of following/unfolling teams\e[0m\n"
+printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] It can increase your followers up to about +100 in 1 hour \e[0m\n"
 printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Press Ctrl + C to stop \e[0m\n"
 sleep 5
 
@@ -447,8 +447,8 @@ fi
 sleep 3
 
 done
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 1296 secs...\e[0m\n"
-sleep 1296
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 10 secs...\e[0m\n"
+sleep 10
 #unfollow
 for celeb in $(cat celeb_id); do
 data='{"_uuid":"'$guid'", "_uid":"'$username_id'", "user_id":"'$celeb'", "_csrftoken":"'$var2'"}'
@@ -465,8 +465,8 @@ fi
 
 sleep 3
 done
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 5 secs...\e[0m\n"
-sleep 5
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 432 secs...\e[0m\n"
+sleep 432
 
 
 done
